@@ -1,0 +1,121 @@
+import { Course } from '../types/timetable';
+
+export const courses: Course[] = [
+  {
+    id: '1',
+    code: '21CSC302J',
+    title: 'Computer Networks',
+    credits: 4,
+    registrationType: 'Regular',
+    category: 'Professional Core',
+    courseType: 'Lab Based Theory',
+    faculty: 'Dr.T.K.SivaKumar (100487)',
+    slot: 'A',
+    roomNumber: 'TP 304',
+    academicYear: 'AY2025-26-ODD'
+  },
+  {
+    id: '2',
+    code: '21CSE214T',
+    title: 'GPU Computing',
+    credits: 3,
+    registrationType: 'Regular',
+    category: 'Professional Elective',
+    courseType: 'Theory',
+    faculty: 'To be Alloted',
+    slot: 'B',
+    roomNumber: 'To be Alloted',
+    academicYear: 'AY2025-26-ODD'
+  },
+  {
+    id: '3',
+    code: '21MAB302T',
+    title: 'Discrete Mathematics',
+    credits: 4,
+    registrationType: 'Regular',
+    category: 'null',
+    courseType: 'Theory',
+    faculty: 'Dr. Celine Prabha S (103320)',
+    slot: 'C',
+    roomNumber: 'TP 304',
+    academicYear: 'AY2025-26-ODD'
+  },
+  {
+    id: '4',
+    code: '21CSC301T',
+    title: 'Formal Language and Automata',
+    credits: 3,
+    registrationType: 'Regular',
+    category: 'null',
+    courseType: 'Theory',
+    faculty: 'Dr. B. Prakash (102885)',
+    slot: 'D',
+    roomNumber: 'TP 304',
+    academicYear: 'AY2025-26-ODD'
+  },
+  {
+    id: '5',
+    code: '21CSC305P',
+    title: 'Machine Learning',
+    credits: 3,
+    registrationType: 'Regular',
+    category: 'Professional Core',
+    courseType: 'Project Based Theory',
+    faculty: 'Dr. Anto Arockia Rosaline R (102921)',
+    slot: 'F',
+    roomNumber: 'TP 304',
+    academicYear: 'AY2025-26-ODD'
+  },
+  {
+    id: '6',
+    code: '21NTO304T',
+    title: 'Environmental Nanotechnology',
+    credits: 3,
+    registrationType: 'Regular',
+    category: 'Open Elective',
+    courseType: 'Theory',
+    faculty: 'Dr. Raja R (103518)',
+    slot: 'G',
+    roomNumber: 'To be Alloted',
+    academicYear: 'AY2025-26-ODD'
+  },
+  {
+    id: '7',
+    code: '21GNP301L',
+    title: 'Community Connect',
+    credits: 1,
+    registrationType: 'Regular',
+    category: 'Project Course',
+    courseType: 'Practical',
+    faculty: 'Dr.Vijayakumar K (103123)',
+    slot: 'L11-L12',
+    roomNumber: '',
+    academicYear: 'AY2025-26-ODD'
+  },
+  {
+    id: '8',
+    code: '21LEM301T',
+    title: 'Indian Art Form',
+    credits: 0,
+    registrationType: 'Regular',
+    category: 'Mandatory',
+    courseType: 'Theory',
+    faculty: 'Dr.Vijayakumar K (103123)',
+    slot: 'L21-L22',
+    roomNumber: 'Online',
+    academicYear: 'AY2025-26-ODD'
+  },
+  {
+    id: '9',
+    code: '21CSC302J',
+    title: 'Computer Networks',
+    credits: 4,
+    registrationType: 'Regular',
+    category: 'Professional Core',
+    courseType: 'Lab Based Theory',
+    faculty: 'Dr.T.K.SivaKumar (100487)',
+    slot: 'P27-P28',
+    roomNumber: 'GND-Computing Lab M',
+    academicYear: 'AY2025-26-ODD'
+  }
+];
